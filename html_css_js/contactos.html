@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en linea ✌🎶</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/contacto.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./productos.html">Productos</a>
+        <a href="./nosotros.html">Nosotros</a>
+        <a href="./contactos.html">Contacto</a>
+        <a href="./carrito_compras.html">Mi carrito de compras</a>
+    </nav>
+    <main class="container">
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form id="contactForm" style="color: black;" action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit" id="enviarBtn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p>Teléfono: +593 99764786</p>
+                <p>Email: contacto@tiendaderopa.com</p>
+                <p>Dirección: Quito, Av Mariscal Sucre, E8A</p>
+            </div>
+            <div class="social-media">
+                <h3>Síguenos</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="newsletter">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <form>
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

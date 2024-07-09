@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table td {
+    background-color: white;
+    color: #666;
+}
+
+table td:first-child {
+    text-align: left;
+}
+
+/* Estilos para los botones de acción */
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button.editar {
+    background-color: #ffc107;
+}
+
+button.editar:hover {
+    background-color: #e0a800;
+}
+
+button.eliminar {
+    background-color: #dc3545;
+}
+
+button.eliminar:hover {
+    background-color: #bd2130;
+}
+
+/* Estilos para el resumen del carrito */
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.total p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.total button {
+    background-color: #28a745;
+}
+
+.total button:hover {
+    background-color: #218838;
+}
